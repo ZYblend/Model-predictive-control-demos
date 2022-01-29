@@ -1,1 +1,3 @@
-# Model-predictive-control-demos
+# Model predictive control demos
+
+I share some case studies for optimal control and model predictive control here.
