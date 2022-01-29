@@ -2,4 +2,4 @@
 
 I share some case studies for optimal control and model predictive control here. <br>
 
-If you use my codes directly, please credit my github page. (https://github.com/ZYblend/Model-predictive-control-demos/)
+If you use my codes, please credit my github page (https://github.com/ZYblend/Model-predictive-control-demos/).
