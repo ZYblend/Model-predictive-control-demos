@@ -1,7 +1,7 @@
 ## Development
 ![MPC-cruise_control](https://user-images.githubusercontent.com/36635562/152439968-984412cc-be89-4ef7-be74-ed212e046145.jpg)
 ## MPC gain vs LQR gain
-When the horizon length increases, the MPC gain will converge to the LQR gain <br>
+When the horizon length increases, the MPC gain (blue) will converge to the LQR gain (red) <br>
 ![gain_convergency](https://user-images.githubusercontent.com/36635562/152820720-832e2d9a-152d-4892-98f0-c8df01ee4315.png)
 ## Simulink model
 Run "run_file.m" first, then run the simulink model.
