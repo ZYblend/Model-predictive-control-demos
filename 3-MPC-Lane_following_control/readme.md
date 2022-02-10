@@ -26,6 +26,7 @@ Process:
 
 #### Stright lane tracking
 <img src="https://user-images.githubusercontent.com/36635562/153496856-711cfec5-2884-4b8b-b063-8462bce5dc5f.png" width="1000" />
+
 #### counter clockwise tracking
 Want to try other trajectory?
 - Please go to **Trajectory_generator.m**, comment the line defineing "straight line" function, then uncomment the line defining "quandratic curve", shown below: <br>
