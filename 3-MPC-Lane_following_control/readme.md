@@ -42,7 +42,7 @@ Please go to **Trajectory_generator.m**, change the function for "quandratic cur
 <img src="https://user-images.githubusercontent.com/36635562/153499633-42cf86ff-86bf-41be-b457-013098d9ab" width="1000" />
 
 ## Simulation 2: 
-I use two second-order polynominal path fit a sin cruve, like:
+I use two second-order polynominal path fit a sin cruve, like: <br>
 <img src="https://user-images.githubusercontent.com/36635562/153500220-71bbe1e2-3722-4553-8dd6-da3f6095c899.png" width="500" /> <br>
 The goal is to control MicroNole to track the blue trajectory first, then switch to red trajectory!
 Some steps you need to do in order to run simulation:
