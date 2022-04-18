@@ -9,6 +9,7 @@
 
 
 ## Results and Conclusions:
+100 iterations upper-bound is set for gradient descent algorithms.
 - solver time: <br>
 ![image](https://user-images.githubusercontent.com/36635562/162810297-6c4deae8-bfca-48a8-8d66-99c12dfc4969.png) <br>
   1. The "quadprog" function takes the most time.
