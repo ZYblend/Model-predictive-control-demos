@@ -3,7 +3,23 @@
 Please refer to https://github.com/ZYblend/Model-predictive-control-demos/tree/main/3-MPC-Lane_following_control. <br>
 I start from the lateral error dynamics. The goal is to **regulate the errors to zeros but don't want the steering angle change too fast (rate constraint) or exceed the saturation (box constraint)**.
 
-### Deductions
+## Vehicle Dynamical model:
+<img src="https://user-images.githubusercontent.com/36635562/153494946-36c0aa39-494a-4527-b6b8-9cf8c8f09d9c.png" width="500" />
+<img src="https://user-images.githubusercontent.com/36635562/153494978-f46271e6-7a1b-4294-a36d-4d33b360cc4f.png" width="500" />
+<img src="https://user-images.githubusercontent.com/36635562/153494987-39768a7c-8a1e-4db8-afc3-eee152576d93.png" width="500" />
+<img src="https://user-images.githubusercontent.com/36635562/153494999-59cef32f-e4fd-4916-9615-55ee1976c43f.png" width="500" />
+
+## Lateral dynamical model:
+<img src="https://user-images.githubusercontent.com/36635562/153495470-ac3715d2-f6b2-4d11-82b6-2070dd72007d.jpg" width="500" />
+<img src="https://user-images.githubusercontent.com/36635562/153495503-042200e6-3a5d-4bf7-b124-5092fa495378.jpg" width="500" />
+<img src="https://user-images.githubusercontent.com/36635562/153495510-afe308ea-8d63-4f11-a0cc-67a9d51dae7d.jpg" width="500" />
+
+## Crosstrack error Calculation
+Assume the path is approximated by second-order polynominals: <br>
+<img src="https://user-images.githubusercontent.com/36635562/153495628-2bb9a53a-87b6-43a5-acd7-b8f8b4f30986.jpg" width="500" />
+
+
+### Control Design
 <img src="https://user-images.githubusercontent.com/36635562/162812214-3706d096-79f0-4eed-82f8-866edf0c92d0.jpg" width="500" />
 <img src="https://user-images.githubusercontent.com/36635562/162812226-9dfc833d-a854-4d7d-b27c-9ed19870af41.jpg" width="500" />
 <img src="https://user-images.githubusercontent.com/36635562/162812232-850a7b52-7499-401c-a013-0584293f1b7c.jpg" width="500" />
